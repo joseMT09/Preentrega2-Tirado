@@ -20,11 +20,9 @@ header{
     display: flex;
     gap: 20px;
     grid-gap: 20px;
-
-    /* 
     position: sticky;
     top: 0;
-    */
+    
 }
 
 .logo{
@@ -107,7 +105,17 @@ p{
     text-align: justify;
 
 }
-/* 
+.marcas{
+
+    text-align: center;
+    color:#000EAD;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row ;
+    margin: 20px;
+}
+
+
 .preview {
     display: flex;  flex-wrap: wrap; 
     justify-content: center;
@@ -128,16 +136,42 @@ p{
     cursor: pointer;
 }
 
-*/
 
 .secciones{
-   
-    
-}
-.subsecciones{
     text-align: center;
-    color: #000EAD;
+    color: black;
     margin: 20px;
+}
+
+.contentboxes{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% auto;
+    
+
+}
+
+.contentbox{
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contentbox p{
+    color: #000000;
+}
+
+.contentbox_img{
+    background-color: black;
+    border: solid 1px;
+    max-width: 70%;
+    margin: 10px;
+   
+}
+
+.contenido{
+    padding: 10px;
 }
 
 footer{
