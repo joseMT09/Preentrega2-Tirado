@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+   
     font-family: 'Work Sans', sans-serif;
     font-size: 62.5;
 }
@@ -11,26 +11,20 @@ body{
    position: relative;
    min-height: 100vh;
    background-color:white;
-   
 }
 
 header{
-   
     background-color: #000000;
     display: flex;
     gap: 20px;
     grid-gap: 20px;
     position: sticky;
     top: 0;
-    
 }
 
 .logo{
-
     width: 60px;
     border-radius: 40px;
-
-
 }
 
 .menu{
@@ -39,8 +33,6 @@ header{
     margin-inline: 20px;
     align-items: center;
     background-color:#000000;
-    
-    
 }
 
 .menu_item{
@@ -49,8 +41,6 @@ header{
     display: inline-block;
     justify-content: flex-end;
     margin-inline: 10px;
-    
-    
 }
 
 .menu_item.active a{
@@ -58,7 +48,6 @@ header{
 }
 
 h1{
-
 color: #000EAD;
 }
 
@@ -80,10 +69,6 @@ color: #000EAD;
     border-radius: 25px;
 }
 
-.titulos{
-    color:#030311;
-}
-
 
 .img{
     width: 200px;
@@ -94,7 +79,7 @@ color: #000EAD;
 
 
 a{  
-    font-size:1.3rem; 
+    font-size: 25px; 
     text-decoration:none;
     display:block;
     color:#000EAD;
@@ -144,9 +129,14 @@ p{
 }
 
 .contentboxes{
+    height: 100%;
     padding: 10px;
+    margin-bottom: 200
+    px;
     display: grid;
     grid-template-columns: 50% auto;
+    
+
 }
 
 .contentbox{
@@ -172,6 +162,10 @@ p{
     padding: 10px;
 }
 
+.formulario{
+
+}
+
 footer{
     background-color:#000000;
     position: absolute;
@@ -180,5 +174,6 @@ footer{
     text-align: center;
     font-weight: bold;
     padding: 20px;
+    margin-top: 20px;
 }
 
