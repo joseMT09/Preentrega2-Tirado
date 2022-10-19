@@ -1,0 +1,93 @@
+body {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d1 {
+    border: 2px solid black;
+    background-color: orange;
+    transition-duration: 4s;
+    border-radius: 5em;
+    box-shadow: inset 0px 0px 5px 10px yellowgreen;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    color: orange;
+    text-align: center;
+    margin-bottom: 1%;
+    width: 90%;
+}
+
+.d1:hover {
+    background-color: rgb(31, 31, 34);
+    box-shadow: inset 0px 0px 5px 10px rgba(100, 107, 119, 0.75);
+}
+
+.d1:active {
+    background-color: green;
+}
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+    10% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    35% {
+        left: -200%;
+    }
+    45% {
+        left: -300%;
+    }
+    55% {
+        left: -400%;
+    }
+    65% {
+        left: -500%;
+    }
+    75% {
+        left: -600%;
+    }
+    85% {
+        left: -700%;
+    }
+    95% {
+        left: -800%;
+    }
+    100% {
+        left: -800%;
+    }
+}
+
+div#slider {
+    overflow: hidden;
+    width: 50%;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px rgb(10, 10, 10);
+    box-shadow: 0px 0px 5px 10px greenyellow;
+}
+
+div#slider figure img {
+    width: 10%;
+    float: left;
+}
+
+div#slider figure {
+    position: relative;
+    width: 1000%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slidy infinite;
+}
+img{
+  width:800px;
+  height: 500px;
+}
